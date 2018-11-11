@@ -3,7 +3,7 @@
         "v8Flags": "--expose_gc",
         "forceLog": true
     },
-    "name": "nativescript-template-ng-groceries",
+    "name": "groceries-manager",
     "version": "3.0.0",
     "main": "main.js"
 }
