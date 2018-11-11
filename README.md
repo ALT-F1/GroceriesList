@@ -1,11 +1,12 @@
-# PWA
+# Groceries list Progressive Web App using NativeScript and Angular6s
 
 Groceries list using Progressive Web App technologies : nativescript, angular, html, css
 
-Heavily based on 
+Test the application on Android : <https://play.google.com/store/apps/details?id=be.altf1.groceriesngpwa>
 
-  * <https://github.com/NativeScript/sample-Groceries>
-  * source code : <https://play.nativescript.org/?template=groceries-ng&tutorial=groceries-ng&autoStart=true&id=ak8McE&v=9>
+Heavily based on NativeScript [sample groceries](https://github.com/NativeScript/sample-Groceries)
+
+* Source code : <https://play.nativescript.org/?template=groceries-ng&tutorial=groceries-ng&autoStart=true&id=ak8McE&v=9>
 
 ## Build the application on Android
 
