@@ -23,3 +23,13 @@ Heavily based on NativeScript [sample groceries](https://github.com/NativeScript
     1. not required : upgrade the certificate : `keytool -importkeystore -srckeystore my-release-key.jks -destkeystore my-release-key.jks -deststoretype pkcs12`
 2. Build the android app using the certificate : `tns build android --release --key-store-path my-release-key.jks --key-store-password aStorePasswordToChange --key-store-alias my-alias --key-store-alias-password aPasswordToChange`
 3. Build the android app WITHOUT the certificate : `tns build android`
+
+## Screenshots
+
+![Screenshot](assets/screenshots/Screenshot_1541944414.png)
+![Screenshot](assets/screenshots/Screenshot_1541944427.png)
+![Screenshot](assets/screenshots/Screenshot_1541944405.png)
+![Screenshot](assets/screenshots/Screenshot_1541944441.png)
+![Screenshot](assets/screenshots/Screenshot_1541944471.png)
+![Screenshot](assets/screenshots/Screenshot_1541944498.png)
+![Screenshot](assets/screenshots/Screenshot_1541944480.png)
