@@ -19,10 +19,14 @@ Heavily based on NativeScript [sample groceries](https://github.com/NativeScript
 * [Publishing a NativeScript Android App in Google Play](https://docs.nativescript.org/tooling/publishing/publishing-android-apps)
 * [Create a key store (certificate) to deploy the Android app on the Google store](https://developer.android.com/studio/publish/app-signing#signing-manually)
 
-1. Generate the certificate : `keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias`
-    1. not required : upgrade the certificate : `keytool -importkeystore -srckeystore my-release-key.jks -destkeystore my-release-key.jks -deststoretype pkcs12`
-2. Build the android app using the certificate : `tns build android --release --key-store-path my-release-key.jks --key-store-password aStorePasswordToChange --key-store-alias my-alias --key-store-alias-password aPasswordToChange`
-3. Build the android app WITHOUT the certificate : `tns build android`
+1. Generate the certificate : 
+    * `keytool -genkey -v -keystore my-release-key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias`
+    1. not required : upgrade the certificate : 
+        * `keytool -importkeystore -srckeystore my-release-key.jks -destkeystore my-release-key.jks -deststoretype pkcs12`
+2. Build the android app using the certificate : 
+    * `tns build android --release --key-store-path my-release-key.jks --key-store-password aStorePasswordToChange --key-store-alias my-alias --key-store-alias-password aPasswordToChange`
+3. Build the android app WITHOUT the certificate : 
+    * `tns build android`
 
 ## Screenshots
 
