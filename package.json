@@ -15,6 +15,11 @@
       "version": "5.0.0"
     }
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ALT-F1/GroceriesList.git"
+  },
+  "license": "Apache-2.0",
   "dependencies": {
     "@angular/animations": "6.1.10",
     "@angular/common": "6.1.10",
@@ -51,13 +56,16 @@
     "zone.js": "0.8.26"
   },
   "devDependencies": {
+    "@angular/compiler-cli": "~7.0.0",
+    "@ngtools/webpack": "~7.0.0",
     "babel-traverse": "6.26.0",
     "babel-types": "6.26.0",
     "babylon": "6.18.0",
     "lazy": "1.0.11",
     "nativescript-dev-typescript": "0.7.2",
+    "nativescript-dev-webpack": "^0.18.0",
     "tns-platform-declarations": "4.2.0",
-    "typescript": "~2.7.2"
+    "typescript": "^3.1.1"
   },
   "author": "A. B."
 }

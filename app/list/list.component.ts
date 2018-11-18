@@ -7,8 +7,8 @@ import { View } from "tns-core-modules/ui/core/view";
 
 @Component({
     selector: "gr-list",
-    templateUrl: "list/list.component.html",
-    styleUrls: ["list/list.component.css"],
+    templateUrl: "list.component.html",
+    styleUrls: ["list.component.css"],
     providers: [GroceryService]
 })
 export class ListComponent implements OnInit {
